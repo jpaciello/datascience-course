@@ -42,18 +42,15 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 **Programa Nacional de Becas de Postgrados en el Exterior**
 >Becas destinadas a egresados de una carrera con el fin de llevar a cabo sus estudios de especialización (maestrías o doctorados en un país extranjero). El principal desafío de BECAL es mejorar la oferta del capital humano avanzado, mediante el financiamiento de becas de estudios de entrenamiento docente y postgrados en centros de excelencia del exterior. El mismo, tiene por objetivo contribuir a aumentar los niveles de generación y aplicación de conocimiento en las áreas de Ciencias y Tecnología (CyT) y en los niveles de aprendizaje en la educación. El principal problema a ser abordado por este programa es la baja capacidad del país para generar y aplicar conocimiento requerido para el desarrollo.
 
-[Referencia] (http://www.becal.gov.py/)
+[Referencia](http://www.becal.gov.py/)
 
 ### Datasets
 En esta sección se presenta una descripción de los Datasets que contienen información de las becas otorgadas incluyendo datos de becarios, convocatoria y estudios a realizar en el extranjero, y además datos referentes a la cobertura otorgada a los becarios para cubrir los gastos de sus estudios.
 
 #### Dataset: Becas otorgadas
 | Atributo | Descripción | Tipo | Valores de ejemplo |
-
 | --- | --- | --- | --- |
-
 | Nº | Número ordinal del registro en el conjunto de datos | Ordinal | 1,2,3 |
-
 | Condición | Indica la situación del becario | Categórico | Becario, Becario retornado, No becario, Pendiente |
 
 | Nº | Número ordinal del registro en el subconjunto de datos correspondiente a la convocatoria a la que pertenece | Ordinal | 1,2,3 |
@@ -127,24 +124,14 @@ En esta sección se presenta una descripción de los Datasets que contienen info
 
 #### Dataset: Coberturas de las becas otorgadas
 | Atributo | Descripción | Tipo | Valores de ejemplo |
-
 | --- | --- | --- | --- |
-
 | No | Número ordinal del registro en el conjunto de datos | Ordinal | 1,2,3 |
-
 | C.I. | Cédula de identidad del becario | Discreto | 1234567 |
-
 | Nombre y Apellido | Descripción del nombre y apellido del becario | Texto | Alejandra Recalde Carballo |
-
 | Tipo de Beca (según Programa aprobado) | Clasificador de la beca otorgada | Categórico | Doctorado para investigación, Maestría para investigación, Maestría para profesionales, ... |
-
 | Maestria / Doctorado | Descripción del estudio de postgrado a realizar | Texto | PhD Estructura de grupos superficies abelianas, Master in Management, ... |
-
 | Universidad de Destino | Descripción de la Universidad donde se realizan los estudios | Texto | Universidad de Chile, Universidad de Bremen, ... |
-
 | Pais | Descripción de la país de destino del estudio | Categórico | Lista de países del mundo |
-
 | Dept. de Origen | Descripción del departamento de nacimiento del becario | Categórico | Lista de departamentos del Paraguay |
-
 | Total General | Monto en dólares americanos otorgado al becario | Discreto | 82896 |
 
