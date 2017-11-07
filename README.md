@@ -48,92 +48,103 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 En esta sección se presenta una descripción de los Datasets que contienen información de las becas otorgadas incluyendo datos de becarios, convocatoria y estudios a realizar en el extranjero, y además datos referentes a la cobertura otorgada a los becarios para cubrir los gastos de sus estudios.
 
 #### Dataset: Becas otorgadas
-Nº # Número ordinal del registro en el conjunto de datos # Ordinal # 1,2,3
- 
-Condición # Indica la situación del becario # Categórico # Becario, Becario retornado, No becario, Pendiente 
+| Atributo | Descripción | Tipo | Valores de ejemplo |
 
-Nº # Número ordinal del registro en el subconjunto de datos correspondiente a la convocatoria a la que pertenece # Ordinal # 1,2,3 
+| --- | --- | --- | --- |
 
-Tipo de Convocatoria # Clasificador de la convocatoria # Categórico # 1ra. Convocatoria autogestionada, 2da. Convocatoria autogestionada, 3ra. Convocatoria autogestionada, 4ta. Convocatoria autogestionada, Chevening, Docente – Francia, Docente – España, Francia – SFERE, Fullbright, Laspau – Doctorado, Laspau 
+| Nº | Número ordinal del registro en el conjunto de datos | Ordinal | 1,2,3 |
 
-Fecha de adjudicación # Indica la fecha en que se adjudicó la beca # Fecha # DD de MM de AAAA 
+| Condición | Indica la situación del becario | Categórico | Becario, Becario retornado, No becario, Pendiente |
 
-C.I. # Cédula de identidad del becario # Discreto # 1234567 
+| Nº | Número ordinal del registro en el subconjunto de datos correspondiente a la convocatoria a la que pertenece | Ordinal | 1,2,3 |
 
-Sexo # Sexo del becario # Categórico # Masculino, Femenino 
+| Tipo de Convocatoria | Clasificador de la convocatoria | Categórico | 1ra. Convocatoria autogestionada, 2da. Convocatoria autogestionada, 3ra. Convocatoria autogestionada, 4ta. Convocatoria autogestionada, Chevening, Docente – Francia, Docente – España, Francia – SFERE, Fullbright, Laspau – Doctorado, Laspau |
 
-Edad # Edad del becario # Discreto # 25 
+| Fecha de adjudicación | Indica la fecha en que se adjudicó la beca | Fecha | DD de MM de AAAA |
 
-Funcionario Público (Institución) # En caso de ser funcionario público, indica la institución pública a la que está vinculado # Categórico # Lista de instituciones públicas del Paraguay 
+| C.I. | Cédula de identidad del becario | Discreto | 1234567 |
 
-Cargo # En caso de ser funcionario público, indica el cargo que ocupa # Texto # Director general, Funcionario UNA, ... 
+| Sexo | Sexo del becario | Categórico | Masculino, Femenino |
 
-Goce de Sueldo # En caso de ser funcionario público, si goza de sueldo durante la beca # Categórico # SI, SI parcial, NO... 
+| Edad | Edad del becario | Discreto | 25 |
 
-Tipo de Beca (según Programa aprobado) # Clasificador de la beca otorgada # Categórico # Doctorado para investigación, Maestría para investigación, Maestría para profesionales, ... 
+| Funcionario Público (Institución) | En caso de ser funcionario público, indica la institución pública a la que está vinculado | Categórico | Lista de instituciones públicas del Paraguay |
 
-Área de la ciencia # Área científica del estudio a cubrir por la beca # Categórico # Ciencias Agrícolas, Ciencias Sociales, Ciencias Médicas, ... 
+| Cargo | En caso de ser funcionario público, indica el cargo que ocupa | Texto | Director general, Funcionario UNA, ... |
 
-Disciplina # Disciplina específica dentro del área científica del estudio # Categórico # Ciencias biológicas, Ciencias de la información y comunicación, ... 
+| Goce de Sueldo | En caso de ser funcionario público, si goza de sueldo durante la beca | Categórico | SI, SI parcial, NO... |
 
-Sector priorizado Conacyt # Clasificador del Conacyt que indica el sector de ciencias correspondiente # Categórico # Ciencias Agrícolas, Ciencias Sociales, Educación, ... 
+| Tipo de Beca (según Programa aprobado) | Clasificador de la beca otorgada | Categórico | Doctorado para investigación, Maestría para investigación, Maestría para profesionales, ... |
 
-Subsector priorizado # Clasificador del Conacyt que indica el subsector de ciencias # Categórico # Tecnologías cognitivas, Biomedicina, ... 
+| Área de la ciencia | Área científica del estudio a cubrir por la beca | Categórico | Ciencias Agrícolas, Ciencias Sociales, Ciencias Médicas, ... |
 
-Maestría / Doctorado # Descripción del estudio de postgrado a realizar # Texto # PhD Estructura de grupos superficies abelianas, Master in Management, ... 
+| Disciplina | Disciplina específica dentro del área científica del estudio | Categórico | Ciencias biológicas, Ciencias de la información y comunicación, ... |
 
-Universidad de Destino # Descripción de la Universidad donde se realizan los estudios # Texto # Universidad de Chile, Universidad de Bremen, ... 
+| Sector priorizado Conacyt | Clasificador del Conacyt que indica el sector de ciencias correspondiente | Categórico | Ciencias Agrícolas, Ciencias Sociales, Educación, ... |
 
-Ranking # Clasificador que indica la fuente de ránking universitario utilizado # Categórico # QS, THE, Times, ... 
+| Subsector priorizado | Clasificador del Conacyt que indica el subsector de ciencias | Categórico | Tecnologías cognitivas, Biomedicina, ... |
 
-Nº # Número ordinal que indica el ránking de la Universidad de destino según la fuente # Ordinal # 1,2,3 
-Ranking de Área Específica # Clasificador que indica la fuente de ránking de áreas específicas utilizado # Categórico # QS, Times, Computer Sciences, ... 
+| Maestría / Doctorado | Descripción del estudio de postgrado a realizar | Texto | PhD Estructura de grupos superficies abelianas, Master in Management, ... |
 
-Nº # Número ordinal que indica el ránking de la Universidad de destino en el área específica del estudio según la fuente # Ordinal # 1,2,3 
+| Universidad de Destino | Descripción de la Universidad donde se realizan los estudios | Texto | Universidad de Chile, Universidad de Bremen, ... |
 
-Ciudad de destino (en español) # Descripción de la ciudad de destino del estudio # Categórico # Lista de ciudades del mundo 
+| Ranking | Clasificador que indica la fuente de ránking universitario utilizado | Categórico | QS, THE, Times, ... |
 
-País de Destino # Descripción de la país de destino del estudio # Categórico # Lista de países del mundo 
+| Nº | Número ordinal que indica el ránking de la Universidad de destino según la fuente | Ordinal | 1,2,3 |
 
-Meses de duración de estudios # Cantidad de meses que dura el estudio  # Discreto # 24,48 
+| Ranking de Área Específica | Clasificador que indica la fuente de ránking de áreas específicas utilizado | Categórico | QS, Times, Computer Sciences, ... |
 
-Inicio (cobertura de beca) # Fecha de inicio de la cobertura de la beca # Fecha # MM/DD/AAAA 
+| Nº | Número ordinal que indica el ránking de la Universidad de destino en el área específica del estudio según la fuente | Ordinal | 1,2,3 |
 
-Fin (cobertura de beca) # Fecha de finalización de la cobertura de la beca # Fecha # MM/DD/AAAA 
+| Ciudad de destino (en español) | Descripción de la ciudad de destino del estudio | Categórico | Lista de ciudades del mundo |
 
-Ciudad de Origen # Descripción de la ciudad de nacimiento del becario # Categórico # Lista de ciudades del Paraguay 
+| País de Destino | Descripción de la país de destino del estudio | Categórico | Lista de países del mundo |
 
-Departamento de Origen # Descripción del departamento de nacimiento del becario # Categórico # Lista de departamentos del Paraguay 
+| Meses de duración de estudios | Cantidad de meses que dura el estudio  | Discreto | 24,48 |
 
-Ciudad de Residencia # Descripción de la ciudad de residencia del becario # Categórico # Lista de ciudades del Paraguay 
+| Inicio (cobertura de beca) | Fecha de inicio de la cobertura de la beca | Fecha | MM/DD/AAAA |
 
-Departamento de Residencia # Descripción del departamento de residencia del becario # Categórico # Lista de departamentos del Paraguay 
+| Fin (cobertura de beca) | Fecha de finalización de la cobertura de la beca | Fecha | MM/DD/AAAA |
 
-Nivel socioeconómico # Clasificador del nivel socioeconómico del becario # Categórico # 1, 0.5, 0.7, sin dato 
+| Ciudad de Origen | Descripción de la ciudad de nacimiento del becario | Categórico | Lista de ciudades del Paraguay |
 
-Tiempo de cobertura # Cantidad de meses de cobertura de la beca # Discreto # 24,48 
+| Departamento de Origen | Descripción del departamento de nacimiento del becario | Categórico | Lista de departamentos del Paraguay |
 
-Contrato Nº # Indica el número de contrato firmado entre el becario y el Ministerio de Hacienda del Paraguay # Discreto # 78/2015 
+| Ciudad de Residencia | Descripción de la ciudad de residencia del becario | Categórico | Lista de ciudades del Paraguay |
 
-Fecha firma de Contrato # Fecha en que se firmó el contrato entre las partes # Fecha # MM/DD/AAAA 
+| Departamento de Residencia | Descripción del departamento de residencia del becario | Categórico | Lista de departamentos del Paraguay |
 
-Fecha firma de Adenda # Fecha en que se firmó la última Adenda del contrato entre las partes si hubiere # Fecha # MM/DD/AAAA 
+| Nivel socioeconómico | Clasificador del nivel socioeconómico del becario | Categórico | 1, 0.5, 0.7, sin dato |
+
+| Tiempo de cobertura | Cantidad de meses de cobertura de la beca | Discreto | 24,48 |
+
+| Contrato Nº | Indica el número de contrato firmado entre el becario y el Ministerio de Hacienda del Paraguay | Discreto | 78/2015 |
+
+| Fecha firma de Contrato | Fecha en que se firmó el contrato entre las partes | Fecha | MM/DD/AAAA |
+
+| Fecha firma de Adenda | Fecha en que se firmó la última Adenda del contrato entre las partes si hubiere | Fecha | MM/DD/AAAA |
+
 
 #### Dataset: Coberturas de las becas otorgadas
-No # Número ordinal del registro en el conjunto de datos # Ordinal # 1,2,3
+| Atributo | Descripción | Tipo | Valores de ejemplo |
 
-C.I. # Cédula de identidad del becario # Discreto # 1234567 
+| --- | --- | --- | --- |
 
-Nombre y Apellido # Descripción del nombre y apellido del becario # Texto # Alejandra Recalde Carballo 
+| No | Número ordinal del registro en el conjunto de datos | Ordinal | 1,2,3 |
 
-Tipo de Beca (según Programa aprobado) # Clasificador de la beca otorgada # Categórico # Doctorado para investigación, Maestría para investigación, Maestría para profesionales, ... 
+| C.I. | Cédula de identidad del becario | Discreto | 1234567 |
 
-Maestria / Doctorado # Descripción del estudio de postgrado a realizar # Texto # PhD Estructura de grupos superficies abelianas, Master in Management, ... 
+| Nombre y Apellido | Descripción del nombre y apellido del becario | Texto | Alejandra Recalde Carballo |
 
-Universidad de Destino # Descripción de la Universidad donde se realizan los estudios # Texto # Universidad de Chile, Universidad de Bremen, ... 
+| Tipo de Beca (según Programa aprobado) | Clasificador de la beca otorgada | Categórico | Doctorado para investigación, Maestría para investigación, Maestría para profesionales, ... |
 
-Pais # Descripción de la país de destino del estudio # Categórico # Lista de países del mundo 
-Dept. de Origen # Descripción del departamento de nacimiento del becario # Categórico # Lista de departamentos del Paraguay 
+| Maestria / Doctorado | Descripción del estudio de postgrado a realizar | Texto | PhD Estructura de grupos superficies abelianas, Master in Management, ... |
 
-Total General # Monto en dólares americanos otorgado al becario # Discreto # 82896 
+| Universidad de Destino | Descripción de la Universidad donde se realizan los estudios | Texto | Universidad de Chile, Universidad de Bremen, ... |
+
+| Pais | Descripción de la país de destino del estudio | Categórico | Lista de países del mundo |
+
+| Dept. de Origen | Descripción del departamento de nacimiento del becario | Categórico | Lista de departamentos del Paraguay |
+
+| Total General | Monto en dólares americanos otorgado al becario | Discreto | 82896 |
 
